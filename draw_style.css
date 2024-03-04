@@ -1,0 +1,101 @@
+/* ==UserStyle==
+@name           Draw.io - Better Dark Mode by Arkc.io
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Arkc.io
+==/UserStyle== */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@-moz-document url-prefix("https://app.diagrams.net/") {
+
+    body.geEditor {
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 16px;
+        border: none;
+        margin: 0px;
+    }
+
+    body.geDarkMode image,
+    body.geDarkMode img:not(.getAdaptiveAsset),
+    body.geDarkMode iframe {
+        filter: invert(0%) !important;
+    }
+
+    body.geDarkMode {
+        filter: invert(91%);
+        background: #02172C;
+    }
+
+    body .geHsplit {
+        display: none;
+    }
+
+    body .geToolbarContainer {
+        padding: 0.2rem;
+    }
+    
+    body .geSidebarContainer:nth-of-type(3) {
+        width: 280px !important;
+    }
+
+
+    body .geSidebar:not(.geSearchSidebar) .geItem {
+        width: 38px !important;
+        height: 38px !important;
+        margin: 1px;
+        cursor: pointer;
+    }
+    
+    body.geDarkMode .geSidebar:not(.geSearchSidebar) .geItem {
+        background-color: #161726;
+        
+    }
+    
+    body.geDarkMode .geSidebar:not(.geSearchSidebar) .geItem:hover {
+        background-color: white;
+    }
+
+    body .geSidebar:not(.geSearchSidebar) .geItem svg {
+        transform: scale(1.25);
+        transform-origin: 50% 50% !important;
+        margin-left: 1.5px;
+        margin-top: 2px;
+    }
+
+    body.geDarkMode .geSidebarFooter {
+        display: none !important;
+    }
+    
+    body .geTabContainer {
+        width: 100%;
+        left: 0 !important;
+        right: 0 !important;
+    }
+    
+    body .geDialog {
+        /*left:120px !important;*/
+        /*top: 120px !important;*/
+        /*height: 760px !important;*/
+        /*width: 1520px !important;*/
+    }
+    
+    body .geDialog > div > div:nth-child(3) {
+        height: calc(100% - 100px) !important;
+    }
+
+    body.geDarkMode .geSidebar:not(.geSearchSidebar),
+    body.geDarkMode .geDiagramContainer,
+    body.geDarkMode .geSidebarTooltip {
+        filter: invert(100%);
+        background: #111219;
+        border-radius: 8px;
+    }
+
+    body.geDarkMode div.geSidebarContainer.geFormatContainer > div:nth-child(3) > div > div:nth-child(2) > div,
+    body.geDarkMode .geStyleButton,
+    body.geDarkMode .geColorBtn {
+        filter: invert(100%);
+    }
+}
