@@ -1847,9 +1847,15 @@
     "aspect": "fixed"
   },
   {
-    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFFFF;gradientColor=none;fontFamily=Raleway;fontSize=11;fontColor=default;labelBackgroundColor=default;fillStyle=solid;opacity=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
-    "w": 40,
-    "h": 40,
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Mo\" style=\"rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#FFFFFF;labelBackgroundColor=none;strokeWidth=1.3;strokeColor=none;fontStyle=1;fillColor=#4FA2DB;aspect=fixed;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"S\" style=\"rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#FFFFFF;labelBackgroundColor=none;strokeWidth=1.3;strokeColor=none;fontStyle=1;fillColor=#48CFD6;aspect=fixed;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
     "aspect": "fixed"
   },
   {
@@ -1874,6 +1880,36 @@
     "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABBpJREFUaAXtWk1P1EAY7k/gJ/BT/AkkbIk3PZgtwQsc9MBFE24Ywh5EjtsrXDyAbkvcoB42ERNrBIJE426CHCBoomE10cOYpzLw9mVm2ikDbhMn2bSddp95nvez3a3nsXGr1roWjD5tBH7cDfxYDMSnFieBHzXHR1rDjO7Z4eTI46FgLJ4fCMIGw9XH4nlwPWPueV5K3ofKAbF4Po8kI6IKlufGhSdSL4xfbw3zk1U5Rr569VorrArhczxHo4YX+GtVin1eFbveOVX5CcRB/unxfwHSg1M32iJ8uClWlj+Kzvpn0V7tiaXwvZi7t3GpHrqwB0Bwd+uLMI2jgx+pqOmJF87FlBYAMnnEuSgICRc2nYooJQDkQabsWFn+4EyEtQAd+d3tryJc2BLTt1+m5KZutsXc/deis74vjg7Pi3UlwlpAsnGQMXy//zslKpNZtYWo9pNe5ns4QAjKD5J+cfaNQDFQYejmrAQgfumAZaXFdQvQeVSovIHQtPGOlYC97vfM+ouziZW1IKZo4kNIkapVWADA6EBsU+sW3YfHZE4g/I4OfwpsVaOIiMICePg8KmF9KRIJzkMPx6oQgwhTXhQSAACevCZQSbTMlnpIegXCdFi5AtBpYQU+dIAu5iGChlX/+JfWC0YB4cI7zjs9Rgy7IGrC4OGk6+BaATxpwRxWQcOaudu5dAHIEzp0RUMrAHeUdIA4TzyTBV2ck9UKPLC+ClMpgFsfQLCICuAy52jPsBKw+CChxi91B4kqVaQRmQxQ2gM8gWbuFIt5kMZtQP8425hgSV0S6gRcKAfwJEXH9MTfO0zdYpiHSE6cYmD/2WpPWw45Nm+cOgMoc4CH0FJzxxj/CJU88lIMigMny4/hSd57dAVEKQDuo40kr53zxfBd3B4jFJF8fOisCSEgT5MX39WVUFyvFIAT+BIdIKl6QMccHaqKtRzu0EtSgiqrI3S5MYCns75RAG/nlMHep29pzAOAP6joEp5bVVYpzJvCDw85XCw91noAF6Hj0lCiIpJXBykw9RTuWSg43VcVBj5H8bGuKdQktlEALoInaD2Wi8i4pAJwDpaV4HTLSzMqG680Etum6+cKkCTwgA4Snef7aYLKzsytqKtYNLappyACmPgAS+LKdfO2hQXogHjDATkqAiWWx7/0ng7TZv7CArAYT2SEAhKTWl2GB7amqmJDHtc6EQAv8Ad+SpjuF0lMGxFOBGBBiOAJTYmjECCPbMgVudaZALkYwkN2YFQTJCd+sbNNTomXt3UuIG9B1+e9uh/1XINeFV7djxMv8CP8K+88Nq8Gc63pjePVgooKOH31IPDXKuiFqHH6usHkyPpQxf5uzb5qACUnIirgiaiReU/i1A0nO3j1oF6L8e/920HJjbRSjkYN5Cvn+weBe/mS444I+wAAAABJRU5ErkJggg==;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
     "w": 20,
     "h": 20,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Co\" style=\"rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#FFFFFF;labelBackgroundColor=none;strokeWidth=1.3;strokeColor=none;fontStyle=1;fillColor=#887ED9;aspect=fixed;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"W\" style=\"rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=8;fontColor=#FFFFFF;labelBackgroundColor=none;strokeWidth=1.3;strokeColor=none;fontStyle=1;fillColor=#8094A7;aspect=fixed;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFFFF;gradientColor=none;fontFamily=Raleway;fontSize=11;fontColor=default;labelBackgroundColor=default;fillStyle=solid;opacity=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFFFF;gradientColor=none;fontFamily=Raleway;fontSize=11;fontColor=default;labelBackgroundColor=default;fillStyle=solid;opacity=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FFFFFF;gradientColor=none;fontFamily=Raleway;fontSize=11;fontColor=default;labelBackgroundColor=default;fillStyle=solid;opacity=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRaleway;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
     "aspect": "fixed"
   },
   {
