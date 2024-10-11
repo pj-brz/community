@@ -1,0 +1,26 @@
+/* Deplacer la sidebar à droite */
+body > div {
+    flex-direction: row-reverse;
+}
+
+body div.bg-token-sidebar-surface-primary > div nav > div:nth-of-type(1) {
+    flex-direction: row-reverse;
+}
+
+/* Augmenter la taille de la sidebar */
+body div.bg-token-sidebar-surface-primary {
+    max-width: 320px !important;
+}
+
+body div.bg-token-sidebar-surface-primary > div {
+    width: 100%;
+}
+
+body div.bg-token-sidebar-surface-primary a.group.flex {
+    width: 94%;
+}
+
+/* Augmenter la taille du content */
+main article div.mx-auto {
+    max-width:64rem;
+}
