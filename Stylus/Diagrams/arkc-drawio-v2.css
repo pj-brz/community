@@ -166,6 +166,10 @@ body .geTabContainer .geTabScroller .geTab.geInactivePage:hover {
 .geToolbarContainer {
     top: 62px !important;
 }
+/* Fix de la sidebar - Text */
+.geSidebarContainer.geFormatContainer .geToolbarContainer {
+    top: inherit !important;
+}
 
 .geSidebarContainer,
 .geDiagramContainer {
